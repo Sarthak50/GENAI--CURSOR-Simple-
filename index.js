@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import readlineSync from 'readline-sync';
-import { configDotenv } from "dotenv";
+import "dotenv/config";
 import { exec } from "child_process"
 import util from "util"
 import { stderr, stdout } from "process";
@@ -10,10 +10,10 @@ import { read } from "fs";
 const platform = os.platform();
 // console.log(platform);
 const execute = util.promisify(exec); // syntax to use to execute the command in exec CONFIGURATION of the lib
-const ai = new GoogleGenAI({ apiKey: "AIzaSyDBUaTv819l3wHgcDEqKJeE5G-WLKjzO5g" })
+const ai = new GoogleGenAI({})
 
 //tool to execute command in terminal using child Process
-async function executeCommand({ command }) {
+async function executeCommand({command}) {
 
     try {
         const { stdout, stderr } = await execute(command);
