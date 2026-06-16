@@ -421,56 +421,6 @@ Add this to `package.json`:
 }
 ```
 
----
 
-# Development Notes
 
-This project demonstrates:
 
-* AI Agents
-* Function Calling
-* Tool Usage with LLMs
-* Node.js Automation
-* CLI Engineering
-* Autonomous Coding Workflows
-
----
-
-# Contributing
-
-Contributions are welcome.
-
-Steps:
-
-1. Fork the repository
-2. Create a new branch
-3. Make changes
-4. Commit changes
-5. Push branch
-6. Open Pull Request
-
----
-
-# License
-
-This project is licensed under the MIT License.
-
----
-
-# Author
-
-Developed by Sarthak Yadav.
-
----
-
-# Acknowledgements
-
-* Google Gemini API
-* Node.js
-* Open Source Community
-
----
-
-# Star the Repository
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
